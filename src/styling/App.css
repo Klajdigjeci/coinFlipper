@@ -1,0 +1,127 @@
+.mainPageTitle{
+    display: block;
+    font-family: Poppins-Bold;
+    font-size: 85px;
+    color: #FFFF;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;
+background-image: url("../pictures/blur08.jpg");
+}
+
+
+#mybtn {
+    position: absolute;
+    top: 70%;
+    left: 37.5%;
+    border-radius: 25px;
+    margin-right: -50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    overflow-x:hidden;
+
+}
+
+
+
+.ui.form{
+    position: absolute;
+    top:30%;
+    left: 46.5%;
+}
+
+.header-middle{
+    margin: 20px auto;
+
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #FFFF;
+    position: absolute;
+    top:15%;
+    left: 41%;
+	opacity: 0.4;
+	font: 200 50px 'Bitter';
+}
+
+.ui.basic.loading.button{
+    position: absolute;
+    top: 250px;
+    left: 48%;
+}
+
+.tenor{
+    position: absolute;
+    top: 27.5%;
+    left: 41%;
+}
+
+.header-right{
+    margin: 20px auto;
+	text-align: left;
+    position: absolute;
+    left: 50px;
+    top:15%;
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #F456;
+	opacity: 0.4;
+	font: 100 50px 'Bitter';
+}
+
+.header-left{
+    margin: 20px auto;
+	text-align: right;
+    position: absolute;
+    right: 90px;
+    top:15%;
+	text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8);
+	color: #9999;
+	opacity: 0.4;
+	font: 100 50px 'Bitter';
+}
+
+.left-image{
+    position: absolute;
+    left: 50px;
+    top:25%;
+}
+
+.right-image{
+    position: absolute;
+    left: 75%;
+    top:25%;
+}
+
+.result{
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+    position: absolute;
+    left: 45%;
+    top:80%;
+}
+
+.ui.green.message{
+    position: absolute;
+    left: 44%;
+    top:85%;
+}
+
+.ui.red.message{
+    position: absolute;
+    left: 44%;
+    top:85%;
+}
+
+html, body {
+       height: 100%;
+       margin: 0;
+       }
+#wrapper {
+       min-height: 100%;
+   }
